@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-basket_ball = pickle.load(open('/Users/test/Downloads/linearmodel.sav', 'rb'))
+basket_ball = pickle.load(open('linearmodel.sav', 'rb'))
 
 st.title('Basket ball salary prediction app')
 
